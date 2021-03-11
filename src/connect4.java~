@@ -1,0 +1,26 @@
+import java.awt.*;
+import java.awt.Color.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.Font;
+import javax.swing.border.*;
+public class connect4 extends JFrame
+{
+	JButton clear, submit;
+	JPanel main;
+	JTextField inputName1, inputName2;
+	JRadioButton p11, p12, p13, p14, p21, p22, p23, p24;
+	JLabel title, puck1, puck2, puck3, puck4;
+	ImageIcon cupidLeft, cupidRight;
+	ChipPlacement g;
+	public static void main(String [] args)
+	{
+		new connect4();
+	}
+	connect4() 
+	{
+		inputName1 = new JTextField();
+		g = new ChipPlacement();
+
+	}
+}
